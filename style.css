@@ -1,0 +1,169 @@
+html {
+	background: #d9d4ce;
+	font-family: 'Open Sans', sans-serif;
+	color: #2a2a2a;
+}
+
+body {
+	width: 90%;
+	margin: auto;
+}
+
+li {
+	list-style: none;
+}
+
+header {
+	background-image: url("./images/road.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	border-radius: 10px;
+	height: 400px;
+	margin-bottom: 2em;
+}
+
+header h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 4em;
+	margin: .25em auto;
+}
+
+header h2 {
+	margin-bottom: 3.5em;
+}
+
+header a, article a, .salutation a {
+	text-decoration: none;
+	margin: 2em;
+}
+
+header button, article button, .salutation button {
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	background: none;
+	border: none;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+header button:hover, article button:hover {
+	text-shadow: 2px 2px dimgrey;
+	color: #2a2a2a;
+}
+
+.about-text a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #2a2a2a;
+}
+
+.about-text a:hover {
+	text-shadow: 1px 1px #a9a9a9;
+}
+
+.about img {
+	float: left;
+	margin: 1em 1em 1em 0;
+	border-radius: 10px;
+}
+
+.tech {
+	margin: 1em 0;
+	text-align: center;
+}
+
+.tech li {
+	margin: .5em;
+	display: inline-block;
+	background: #a9a9a9;
+	padding: .5em;
+	border-radius: 10px;
+}
+
+hr { 
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.tech h2, .projects h2 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 2em;
+}
+
+.projects h2 {
+	text-align: center;
+}
+
+article {
+	background: #a9a9a9;
+	padding: .5em;
+	margin: 1em;
+	border-radius: 10px;
+	height: auto;
+	overflow: auto;
+	vertical-align: center;
+
+}
+
+article img {
+	float: right;
+	border-radius: 10px;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	margin-left: 0.5em;
+	margin: 2em 0 2em 0.5em;
+	/*vertical-align: middle;*/
+}
+
+/*.project-text {
+	float: left;
+}*/
+
+article h3 {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+article h4 {
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.project-tech, .project-links {
+	text-align: center;
+}
+
+article li, .project-tech p {
+	margin: .25em;
+	display: inline-block;
+	background: #d9d4ce;
+	padding: .25em;
+	border-radius: 10px;
+}
+
+.salutation {
+	text-align: center;
+	margin: 2em;
+}
+
+.salutation p {
+	font-weight: bold;
+}
+
+.salutation button {
+	color: #2a2a2a;
+}
+
+.salutation button:hover {
+	text-shadow: 2px 2px dimgrey;
+	color: white;
+}
+
