@@ -36,13 +36,11 @@ header h2 {
 	font-family: 'Permanent Marker', cursive;
 	margin-top: 2.5em;
 	font-size: 4em;
-	/*color: #E9EBEA;*/
-	/*color: #DFC8A9;*/
 	color: #F2F3D4;
 	text-shadow: 2px 2px dimgrey;
 }
 
-@media screen and (max-width: 699px) and (min-width: 520px) {
+/*@media screen and (max-width: 699px) and (min-width: 520px) {
   header h1 {
     padding-top: .5em;
     font-size: 3em;
@@ -110,7 +108,7 @@ header h2:hover {
 		margin-top: 1em;
 		font-size: 4em;
   }
-}
+}*/
 
 header a, article a, .salutation a {
 	text-decoration: none;
@@ -135,6 +133,16 @@ header button:hover, article button:hover {
 main {
 	width: 95%;
 	margin: auto;
+}
+
+.tagline {
+	text-align: center;
+}
+
+.tagline h2 {
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	color: #2a2a2a;
 }
 
 .about-text a {
