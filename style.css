@@ -79,6 +79,39 @@ header h2:hover {
 	color: white;
 }
 
+@media screen and (max-width: 699px) and (min-width: 520px) {
+  header h1 {
+    padding-top: .5em;
+    font-size: 3em;
+  }
+  header h2 {
+		margin-top: 1.5em;
+		font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 999px) and (min-width: 700px) {
+  header h1 {
+    padding-top: .75em;
+    font-size: 3.5em;
+  }
+  header h2 {
+		margin-top: 1.25em;
+		font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 1399px) and (min-width: 1000px) {
+  header h1 {
+    padding-top: .5em;
+    font-size: 4em;
+  }
+  header h2 {
+		margin-top: 1em;
+		font-size: 4em;
+  }
+}
+
 header a, article a, .salutation a {
 	text-decoration: none;
 	margin: 2em;
