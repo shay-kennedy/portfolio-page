@@ -5,7 +5,6 @@ html {
 }
 
 body {
-	/*width: 90%;*/
 	margin: auto;
 	background: #d9d4ce;
 }
@@ -30,7 +29,6 @@ header {
 	background-position: center;
 	background-size: cover;
 	text-align: center;
-	/*border-radius: 10px;*/
 	height: 600px;
 	margin-bottom: 2em;
 }
@@ -38,7 +36,6 @@ header {
 header h1 {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 4em;
-	/*margin: 0 auto;*/
 	padding: 1em .5em .5em .5em;
 }
 
@@ -52,13 +49,17 @@ header h2 {
 }
 
 .header-links-container {
-	width: 90%;
+	width: 50%;
 	margin: auto;
 }
 
-header button, article button, .salutation button {
+header a {
+	/*margin: 0 1em;*/
+}
+
+header a, article a, .salutation a {
 	font-family: 'Amatic SC', cursive;
-	color: white;
+	color: #2a2a2a;
 	background: none;
 	border: none;
 	font-size: 2em;
@@ -66,9 +67,10 @@ header button, article button, .salutation button {
 	cursor: pointer;
 }
 
-header button:hover, article button:hover {
+header a:hover, article a:hover, .salutation a:hover {
 	text-shadow: 2px 2px dimgrey;
-	color: #2a2a2a;
+	color: white;
+	text-decoration: none;
 }
 
 article a {
@@ -145,6 +147,15 @@ article {
 	margin: 2em 0;
 }
 
+.project-links a {
+	color: white;
+}
+
+.project-links a:hover {
+	text-shadow: 2px 2px dimgrey;
+	color: #2a2a2a;
+}
+
 .screenshot-container {
 	display: flex;
 	padding: 0;
@@ -195,20 +206,11 @@ article h4 {
 }
 
 .salutation-links-container {
-	width: 90%;
+	width: 50%;
 	margin: auto;
 }
 
-.salutation button, header button {
-	color: #2a2a2a;
-}
-
-.salutation button:hover, header button:hover {
-	text-shadow: 2px 2px dimgrey;
-	color: white;
-}
-
-header button {
+header a {
 	font-weight: bold;
 }
 
@@ -253,26 +255,14 @@ header button {
 	}
 }
 
-@media screen and (max-width: 736px) and (min-width: 471px) {
+@media screen and (max-width: 767px) and (min-width: 471px) {
   header h2 {
 		margin-top: .75em;
   }
-  .header-links-container {
+  /*.header-links-container {
   	width: 75%;
-  }
+  }*/
   .project-text {
-		padding: .5em 1em .5em 1em;
-	}
-}
-
-@media screen and (max-width: 767px) and (min-width: 737px) {
-  header h2 {
-		margin-top: 1.25em;
-  }
-  .header-links-container {
-  	width: 75%;
-  }
-	.project-text {
 		padding: .5em 1em .5em 1em;
 	}
 }
