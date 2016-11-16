@@ -135,26 +135,10 @@ main {
 	margin: auto;
 }
 
-.tagline {
-	text-align: center;
-}
-
-.tagline h2 {
-	text-align: center;
-	font-family: 'Permanent Marker', cursive;
-	color: #2a2a2a;
-}
-
 .about-text a {
 	font-weight: bold;
 	text-decoration: none;
 	color: #2a2a2a;
-}
-
-.about-text h5 {
-	text-align: center;
-	line-height: 1.5em;
-	margin: .5em 0 1em 0;
 }
 
 .about-text h6 {
@@ -215,30 +199,37 @@ main.container {
 
 article {
 	background: #a9a9a9;
-	padding: .5em 2em;
+	padding: .5em;
 	margin: 2em 0;
 	border-radius: 10px;
 	height: auto;
 	overflow: auto;
 	vertical-align: center;
-
 }
 
 .project-text {
-	margin: 1em 0;
+	/*margin: 1em 0;*/
+	padding: .5em 1em .5em 2em;
 }
 
 .project-links {
 	margin: 2em 0;
 }
 
+.screenshot-container {
+	display: flex;
+	padding: 0;
+	height: 100%;
+	justify-content: center;
+}
+
+.vertical-center {
+	display: flex;
+	align-items: center;
+}
+
 article img {
 	border-radius: 10px;
-	height: 100%;
-	max-width: 100%;
-	max-height: 100%;
-	margin-left: 0.5em;
-	margin: 2em 0 2em 0.5em;
 }
 
 article h3 {
@@ -255,7 +246,7 @@ article h4 {
 	text-align: center;
 }
 
-article li, .project-tech p {
+.project-tech p {
 	margin: .25em;
 	display: inline-block;
 	background: #d9d4ce;
