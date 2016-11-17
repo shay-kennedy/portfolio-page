@@ -50,7 +50,7 @@ header h2 {
 }
 
 header span {
-	font-size: .9em;
+	font-size: .8em;
 }
 
 .header-links-container {
@@ -251,7 +251,7 @@ header a {
 	}
 }
 
-@media screen and (max-width: 430px) and (min-width: 354px) {
+@media screen and (max-width: 442px) and (min-width: 354px) {
 	header h2 {
 		margin-top: 2.5em;
 	}
@@ -260,13 +260,7 @@ header a {
 	}
 }
 
-@media screen and (max-width: 499px) and (min-width: 431px) {
-	header h2 {
-		margin-top: 1.65em;
-	}
-}
-
-@media screen and (max-width: 499px) and (min-width: 354px) {
+@media screen and (max-width: 512px) and (min-width: 354px) {
 	header h1 {
 		font-size: 3em;
 	}
@@ -298,7 +292,7 @@ header a {
 	}
 }
 
-@media screen and (max-width: 645px) and (min-width: 500px) {
+@media screen and (max-width: 659px) and (min-width: 513px) {
   header h1 {
   	font-size: 4em;
   	padding-top: .65em;
@@ -319,12 +313,13 @@ header a {
 	}
 }
 
-@media screen and (max-width: 767px) and (min-width: 646px) {
+@media screen and (max-width: 799px) and (min-width: 660px) {
   header h1 {
   	font-size: 4em;
+  	padding-top: .65em;
   }
   header h2 {
-		margin-top: .75em;
+		margin-top: 2.5em;
 		line-height: 120%;
 		font-size: 3.5em;
   }
@@ -339,28 +334,41 @@ header a {
 	}
 }
 
-@media screen and (max-width: 1032px) and (min-width: 768px) {
-  header h1 {
-  	font-size: 4em;
-  }
+@media screen and (max-width: 767px) and (min-width: 660px) {
+	header h2 {
+		margin-top: 1.5em;
+	}
+}
+
+@media screen and (max-width: 849px) and (min-width: 800px) {
   header h2 {
 		margin-top: .75em;
 		line-height: 120%;
-		font-size: 4em;
+  }
+  header span {
+		font-size: .5em;
+	}
+  .project-text {
+		padding: .5em 1em .5em 1em;
+	}
+	.screenshot-container a {
+		margin: .5em;
+	}
+}
+
+@media screen and (max-width: 1120px) and (min-width: 850px) {
+  header h2 {
+		margin-top: 1em;
+		line-height: 120%;
   }
   header span {
 		font-size: .65em;
 	}
 }
 
-@media screen and (max-width: 1120px) and (min-width: 1033px) {
+@media screen and (max-width: 1205px) and (min-width: 1121px) {
   header h2 {
-		margin-top: 1em;
+		margin-top: .9em;
   }
-}
 
-@media screen and (max-width: 1190px) and (min-width: 1121px) {
-  header h2 {
-		margin-top: 1em;
-  }
 }
