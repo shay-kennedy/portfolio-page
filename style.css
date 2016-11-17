@@ -9,6 +9,11 @@ body {
 	background: #d9d4ce;
 }
 
+main.container {
+	width: 95%;
+	max-width: 1205px;
+}
+
 li {
 	list-style: none;
 }
@@ -74,10 +79,6 @@ header a:hover, article a:hover, .salutation a:hover {
 	text-decoration: none;
 }
 
-main.container {
-	width: 95%;
-}
-
 .about-text a {
 	font-weight: bold;
 	text-decoration: none;
@@ -100,29 +101,17 @@ main.container {
 }
 
 .about img {
-	margin: 1em auto;
-	border-radius: 10px;
+	margin-top: 2.5em;
+	border-radius: 5px;
 }
 
-.tech {
-	margin: 1em 0;
-	text-align: center;
-}
-
-.tech li {
-	margin: .5em;
-	display: inline-block;
-	background: #a9a9a9;
-	padding: .5em;
-	border-radius: 10px;
-}
-
-.tech h2, .projects h2 {
+.projects h2, .about h2 {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 2em;
+	margin: 1em 0;
 }
 
-.projects h2 {
+.projects h2, .about h2 {
 	text-align: center;
 }
 
@@ -130,7 +119,7 @@ article {
 	background: #a9a9a9;
 	padding: .5em;
 	margin: 2em 0;
-	border-radius: 10px;
+	border-radius: 5px;
 	height: auto;
 	overflow: auto;
 	vertical-align: center;
@@ -171,7 +160,7 @@ article {
 }
 
 article img {
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 article h3 {
@@ -193,7 +182,7 @@ article h4 {
 	display: inline-block;
 	background: #d9d4ce;
 	padding: .25em;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 .salutation {
