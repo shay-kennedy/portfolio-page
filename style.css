@@ -149,6 +149,10 @@ article {
 	text-align: center;
 }
 
+.project-tech {
+	margin-bottom: 1em;
+}
+
 .project-tech p {
 	margin: .25em;
 	display: inline-block;
