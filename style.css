@@ -35,17 +35,22 @@ header {
 
 header h1 {
 	font-family: 'Permanent Marker', cursive;
-	font-size: 4em;
+	font-size: 4.25em;
 	padding: 1em .5em .5em .5em;
 }
 
 header h2 {
 	font-family: 'Permanent Marker', cursive;
-	margin-top: 2.75em;
+	margin-top: 1.5em;
 	padding: .5em;
-	font-size: 4em;
+	font-size: 4.25em;
 	color: #F2F3D4;
 	text-shadow: 2px 2px dimgrey;
+	line-height: 130%;
+}
+
+header span {
+	font-size: .9em;
 }
 
 .header-links-container {
@@ -217,7 +222,10 @@ header a {
 	}
 	header h2 {
 		font-size: 3em;
-		margin-top: 1.5em;
+		margin-top: 1em;
+	}
+	header span {
+		display: none;
 	}
 	.header-links-container {
 		width: 75%;
@@ -243,13 +251,31 @@ header a {
 	}
 }
 
-@media screen and (max-width: 470px) and (min-width: 354px) {
+@media screen and (max-width: 430px) and (min-width: 354px) {
+	header h2 {
+		margin-top: 2.5em;
+	}
+	header span {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 499px) and (min-width: 431px) {
+	header h2 {
+		margin-top: 1.65em;
+	}
+}
+
+@media screen and (max-width: 499px) and (min-width: 354px) {
 	header h1 {
 		font-size: 3em;
 	}
 	header h2 {
+		line-height: 120%;
 		font-size: 3em;
-		margin-top: 2.25em;
+	}
+	header span {
+		font-size: .5em;
 	}
 	.header-links-container {
 		width: 75%;
@@ -272,10 +298,19 @@ header a {
 	}
 }
 
-@media screen and (max-width: 767px) and (min-width: 471px) {
+@media screen and (max-width: 645px) and (min-width: 500px) {
+  header h1 {
+  	font-size: 4em;
+  	padding-top: .65em;
+  }
   header h2 {
 		margin-top: .75em;
+		line-height: 120%;
+		font-size: 3.5em;
   }
+  header span {
+		font-size: .5em;
+	}
   .project-text {
 		padding: .5em 1em .5em 1em;
 	}
@@ -284,8 +319,48 @@ header a {
 	}
 }
 
-@media screen and (max-width: 1120px) and (min-width: 768px) {
+@media screen and (max-width: 767px) and (min-width: 646px) {
+  header h1 {
+  	font-size: 4em;
+  }
   header h2 {
-		margin-top: 2.25em;
+		margin-top: .75em;
+		line-height: 120%;
+		font-size: 3.5em;
+  }
+  header span {
+		font-size: .5em;
+	}
+  .project-text {
+		padding: .5em 1em .5em 1em;
+	}
+	.screenshot-container a {
+		margin: .5em;
+	}
+}
+
+@media screen and (max-width: 1032px) and (min-width: 768px) {
+  header h1 {
+  	font-size: 4em;
+  }
+  header h2 {
+		margin-top: .75em;
+		line-height: 120%;
+		font-size: 4em;
+  }
+  header span {
+		font-size: .65em;
+	}
+}
+
+@media screen and (max-width: 1120px) and (min-width: 1033px) {
+  header h2 {
+		margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 1190px) and (min-width: 1121px) {
+  header h2 {
+		margin-top: 1em;
   }
 }
