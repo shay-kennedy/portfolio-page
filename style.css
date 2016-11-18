@@ -18,6 +18,10 @@ li {
 	list-style: none;
 }
 
+a, a:visited, a:hover, a:active {
+  text-decoration:none !important;
+}
+
 hr { 
     display: block;
     margin-top: 2em;
@@ -76,7 +80,6 @@ header a, article a, .salutation a {
 header a:hover, article a:hover, .salutation a:hover {
 	text-shadow: 2px 2px dimgrey;
 	color: white;
-	text-decoration: none;
 }
 
 .about-text a {
@@ -138,11 +141,6 @@ article {
 	background: #d9d4ce;
 	border-radius: 5px;
 	padding: 0 .25em;
-}
-
-.project-links a:hover {
-	text-shadow: 2px 2px dimgrey;
-	color: #2a2a2a;
 }
 
 .project-tech, .project-links {
