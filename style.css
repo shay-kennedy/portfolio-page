@@ -106,6 +106,8 @@ header a:hover, article a:hover, .salutation a:hover {
 .about img {
 	margin-top: 2.5em;
 	border-radius: 5px;
+	max-height: 500px;
+	max-width: 300px;
 }
 
 .projects h2, .about h2 {
@@ -356,6 +358,9 @@ header a {
   }
   header span {
 		font-size: .65em;
+	}
+	.about img {
+		margin-top: 3.5em;
 	}
 }
 
