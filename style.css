@@ -1,5 +1,5 @@
 html {
-	
+
 	font-family: 'Open Sans', sans-serif;
 	color: #2a2a2a;
 }
@@ -22,7 +22,7 @@ a, a:visited, a:hover, a:active {
   text-decoration:none !important;
 }
 
-hr { 
+hr {
     display: block;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -209,6 +209,10 @@ article h3 {
 
 header a {
 	font-weight: bold;
+}
+
+.tc {
+    text-align: center;
 }
 
 @media screen and (max-width: 353px) {
